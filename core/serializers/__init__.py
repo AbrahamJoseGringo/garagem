@@ -1,4 +1,4 @@
 from .user import UserSerializer
-from .categoria import CategoriaSerializer
-from .editora import EditoraSerializer
+from .acessório import AcessorioSerializer
+from .cor import CorSerializer
 from .autor import AutorSerializer

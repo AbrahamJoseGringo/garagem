@@ -1,9 +1,9 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Editora
+from core.models import Cor
 
 
-class EditoraSerializer(ModelSerializer):
+class CorSerializer(ModelSerializer):
     class Meta:
-        model = Editora
+        model = Cor
         fields = "__all__"

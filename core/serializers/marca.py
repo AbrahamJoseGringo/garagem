@@ -1,9 +1,9 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Autor
+from core.models import marca
 
 
-class AutorSerializer(ModelSerializer):
+class MarcaSerializer(ModelSerializer):
     class Meta:
         model = Autor
         fields = "__all__"

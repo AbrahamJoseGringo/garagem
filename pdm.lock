@@ -5,7 +5,7 @@
 groups = ["default", "dev", "format"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:6401d40b8c8811776ce8eb919d3de252f8a3205ad46c7f9ac37096bedce4314f"
+content_hash = "sha256:85b7666a5ea614b0c90422b752adc91f921b46589b42e47deab1ff6c64313615"
 
 [[package]]
 name = "asgiref"
@@ -618,8 +618,6 @@ dependencies = [
     "astroid<=3.1.0-dev0,>=3.0.1",
     "colorama>=0.4.5; sys_platform == \"win32\"",
     "dill>=0.2; python_version < \"3.11\"",
-    "dill>=0.3.6; python_version >= \"3.11\"",
-    "dill>=0.3.7; python_version >= \"3.12\"",
     "isort!=5.13.0,<6,>=4.2.5",
     "mccabe<0.8,>=0.6",
     "platformdirs>=2.2.0",
